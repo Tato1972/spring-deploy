@@ -16,7 +16,7 @@ public class HelloController {
         return "Hola mundo que tal vamos!!!! Hasta Luego";
     }
 
-    @GetMapping("/bootstrap")
+    @GetMapping("/")
     public String bootstrap(){
         //Se puede pero esto no es recomendable
         return """
